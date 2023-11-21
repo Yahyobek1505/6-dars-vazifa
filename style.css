@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contaier {
+  width: 1200px;
+  margin: 0 auto;
+  height: 100%;
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  outline: none;
+  border: none;
+}
+select {
+  cursor: pointer;
+  width: 55px;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  background: #e0e0e0;
+  padding: 10px 7px;
+  font-size: 14px;
+  color: #000;
+}
+option {
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+}
+button {
+  border: none;
+  cursor: pointer;
+}
+.header {
+  gap: 585px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.kontrast {
+  gap: 24px;
+}
+.kontrast span {
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+}
+.search {
+  border-radius: 8px;
+  border: 1px solid #9e9e9e;
+  padding: 10px 9px;
+  text-indent: 20px;
+  color: #9e9e9e;
+}
+form {
+  position: relative;
+}
+.search-icon {
+  position: absolute;
+  top: 8px;
+  left: 10px;
+  cursor: pointer;
+}
+.search::placeholder {
+  color: #9e9e9e;
+  font-size: 14px;
+  font-weight: 500;
+}
+.add_btn {
+  border-radius: 8px;
+  background: #624de3;
+  padding: 10px 12px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  padding-left: 50px;
+  margin-left: 15px;
+}
+.add {
+  position: absolute;
+  cursor: pointer;
+  top: 10px;
+  left: 1035px;
+}
+.add_btn:hover {
+  background-color: #1ed;
+}
+.add_btn:active {
+  background-color: rgba(17, 238, 135, 0.657);
+}
+table {
+  margin-bottom: 15px;
+  border-collapse: collapse;
+}
+.thead {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+thead th {
+  width: 1190px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+table img {
+  cursor: pointer;
+}
+.table2:nth-last-child(even) important {
+  background: #1e0b9d;
+}
+.hat {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+table tr {
+  width: 1200px;
+  margin: 0 auto;
+  gap: 20px;
+}
+tr td {
+  font-size: 14px;
+  padding: 15px 30px;
+}
+table tr:nth-child(even) {
+  background: #f7f6fe;
+}
+.table {
+  border: none;
+}
+.flex-foter {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+}
+.green {
+  color: #1f9254;
+  border-radius: 20px;
+  background: #ebf9f1;
+}
+.yellow{
+  color: #CD6200;
+  border-radius: 20px;
+  background: #ebf9f1;
+  color: #A30D11;
+}

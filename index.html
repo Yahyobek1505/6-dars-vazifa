@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data-Base</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="contaier">
+      <div class="header flex">
+        <div class="kontrast flex">
+          <span>Show</span>
+          <form action="#">
+            <select name="number" id="id">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </form>
+          <span>entries</span>
+          <form action="#">
+            <img class="search-icon" src="./img/s.svg" alt="" />
+            <input class="search" type="search" placeholder="Search..." />
+          </form>
+        </div>
+        <img class="add" src="./img/adds.svg" alt="" />
+        <button class="add_btn">Add Customer</button>
+      </div>
+      <table>
+        <thead class="flex thead">
+          <th>Tracking ID</th>
+          <th>Product <img src="./img/up-down.png" alt="up-down" /></th>
+          <th>Customer</th>
+          <th>Date <img src="./img/up-down.png" alt="up-down" /></th>
+          <th>Amount</th>
+          <th>Payment Mode</th>
+          <th>Status <img src="./img/up-down.png" alt="up-down" /></th>
+          <th>Action</th>
+        </thead>
+        <table class="flex table">
+          <tbody>
+            <tr>
+              <td class="left">#20462</td>
+              <td class="hat"><img src="./img/hat.png" alt="hat">Hat</td>
+              <td>Matt Dickerson</td>
+              <td>13/05/2022</td>
+              <td>$4.95</td>
+              <td>Tranfer Bank</td>
+              <td class="green"><span>Delivered</span></td>
+              <td class="left"><img src="./img/edit.svg" alt=""> <img src="./img/delete.svg" alt=""></td>
+            </tr>
+            <tr>
+              <td class="left">#20462</td>
+              <td class=" hat"><img src="./img/laptop.png" alt="Laptop">Laptop</td>
+              <td>Wiktoria</td>
+              <td>22/05/2022</td>
+              <td>$8.95</td>
+              <td>Cash on Delivery</td>
+              <td  class="green"><span>Delivered</span></td>
+              <td><img src="./img/edit.svg" alt=""> <img src="./img/delete.svg" alt=""></td>
+            </tr>
+            <tr>
+              <td class="left">#20462</td>
+              <td class="hat"><img src="./img/phone.png" alt="hat">Phone</td>
+              <td>Trixie Byrd</td>
+              <td>13/05/2022</td>
+              <td>$1,149.95	</td>
+              <td>Tranfer Bank</td>
+              <td class="yellow">Process</td>
+              <td><img src="./img/edit.svg" alt=""> <img src="./img/delete.svg" alt=""></td>
+            </tr>
+            <tr>
+              <td class="left">#20462</td>
+              <td class="hat"><img src="./img/bag.png" alt="hat">Bag</td>
+              <td>Brad Mason</td>
+              <td>06/09/2022</td>
+              <td>$899.95	</td>
+              <td>Tranfer Bank</td>
+              <td class="yellow">Process</td>
+              <td><img src="./img/edit.svg" alt=""> <img src="./img/delete.svg" alt=""></td>
+            </tr>
+            <tr>
+              <td class="left">#20462</td>
+              <td class="hat"><img src="./img/headset.png" alt="hat">Headset</td>
+              <td>Sanderson</td>
+              <td>25/09/2022</td>
+              <td>$22.95</td>
+              <td>Cash on Delivery</td>
+              <td class="red" >Canceled</td>
+              <td><img src="./img/edit.svg" alt=""> <img src="./img/delete.svg" alt=""></td>
+            </tr>
+            <tr>
+              <td class="left">#20462</td>
+              <td class="hat"><img src="./img/mouse.png" alt="hat">Mouse</td>
+              <td>Jun Redfern</td>
+              <td>04/10/2022</td>
+              <td>$54.95</td>
+              <td>Tranfer Bank</td>
+              <td class="green">Delivered</td>
+              <td><img src="./img/edit.svg" alt=""> <img src="./img/delete.svg" alt=""></td>
+            </tr>
+            <tr>
+              <td class="left">#20462</td>
+              <td class="hat"><img src="./img/clock.png" alt="hat">Clock</td>
+              <td>Miriam Kidd</td>
+              <td>17/10/2022</td>
+              <td>$174.95</td>
+              <td>Tranfer Bank</td>
+              <td class="green">Delivered</td>
+              <td><img src="./img/edit.svg" alt=""> <img src="./img/delete.svg" alt=""></td>
+            </tr>
+            <tr>
+              <td class="left">#20462</td>
+              <td class="hat"><img src="./img/t-shirt.png" alt="hat">T-shirt</td>
+              <td>Dominic</td>
+              <td>24/10/2022</td>
+              <td>$249.95</td>
+              <td>Cash on Delivery</td>
+              <td class="green">Delivered</td>
+              <td><img src="./img/edit.svg" alt=""> <img src="./img/delete.svg" alt=""></td>
+            </tr>
+            <tr>
+              <td class="left">#20462</td>
+              <td class="hat"><img src="./img/monitor.png" alt="hat">Monitor</td>
+              <td>Shanice</td>
+              <td>01/11/2022</td>
+              <td>$899.95</td>
+              <td>Tranfer Bank</td>
+              <td class="red">Canceled</td>
+              <td><img src="./img/edit.svg" alt=""> <img src="./img/delete.svg" alt=""></td>
+            </tr>
+            <tr>
+              <td class="left">#20462</td>
+              <td class="hat"><img src="./img/keyboard.png" alt="hat">Keyboard</td>
+              <td>Poppy-Rose</td>
+              <td>22/11/2022</td>
+              <td>$6.948</td>
+              <td>Tranfer Bank</td>
+              <td class="yellow">Process</td>
+              <td><img src="./img/edit.svg" alt=""> <img src="./img/delete.svg" alt=""></td>
+            </tr>
+          </tbody>
+        </table>
+        </table>
+        <div class="flex-foter">
+          <span>Previous</span>
+          <button>1</button>
+          <button>2</button>
+          <button>3</button>
+          <span>Next</span>
+        </div>
+    </div>
+  </body>
+</html>

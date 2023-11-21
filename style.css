@@ -124,6 +124,7 @@ table img {
   display: flex;
   align-items: center;
   gap: 15px;
+  margin-left: 25px;
 }
 table tr {
   width: 1200px;
@@ -149,14 +150,33 @@ table tr:nth-child(even) {
   align-items: center;
   gap: 14px;
 }
-.green {
+.green span {
   color: #1f9254;
+  padding: 8px 12px;
   border-radius: 20px;
   background: #ebf9f1;
 }
-.yellow{
-  color: #CD6200;
+.yellow span {
+  color: #cd6200;
+  padding: 8px 12px;
   border-radius: 20px;
-  background: #ebf9f1;
-  color: #A30D11;
+  background: #FEF2E5;
+}
+.red span {
+  color: #a30d11;
+  padding: 8px 12px;
+  border-radius: 20px;
+  background: #FBE7E8;
+}
+.flex-foter button {
+  border-radius: 8px;
+  background: #E0E0E0;
+  padding: 8px 12px;
+}
+#primary{
+  background: #624DE3;
+  color: #fff;
+}
+.flex-foter span{
+  cursor: pointer;
 }
